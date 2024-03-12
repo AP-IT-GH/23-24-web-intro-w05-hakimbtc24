@@ -16,3 +16,20 @@ a, a:hover {
 .koffiebruin{
   color: #ca8446;
 }
+
+
+@media media-breakpoint-up(sm) { ... }
+@media media-breakpoint-up(md) { ... }
+@media media-breakpoint-up(lg) { ... }
+@media media-breakpoint-up(xl) { ... }
+@media media-breakpoint-up(xxl) { ... }
+
+
+.custom-class {
+  display: none;
+}
+@include media-breakpoint-up(sm) {
+  .custom-class {
+    display: block;
+  }
+}
